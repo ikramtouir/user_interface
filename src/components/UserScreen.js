@@ -76,9 +76,15 @@ const UserScreen = () => {
           </form>
         </>
       )}
-     { !jwt && <>
-      <h1> Ooops, sorry ! you don't have access to this page, please login first </h1>
-      </>}
+      {!jwt && (
+        <>
+          <h1>
+            {" "}
+            Ooops, sorry ! you don't have access to this page, please login
+            first  <Link to="/"> Login</Link>
+          </h1>
+        </>
+      )}
     </div>
   );
 };
