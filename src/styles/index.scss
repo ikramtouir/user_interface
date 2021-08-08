@@ -1,0 +1,23 @@
+
+@import "./loginForm";
+@import "./userScreen";
+
+
+
+  h1{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10% 0.4%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  h5 {
+      color:red;
+      position:absolute;
+      top: 55%;
+      left: 35%;
+  
+  }
